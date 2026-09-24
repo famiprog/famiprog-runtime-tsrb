@@ -4,6 +4,8 @@ import Moveable from "react-moveable";
 import Selecto from "react-selecto";
 import { proxy, ref, useSnapshot } from "valtio";
 
+console.log("Hello world runtime-tsrb v1");
+
 export interface RadComponent<P> {
     reactElement: ReactElement;
     key?: string;
